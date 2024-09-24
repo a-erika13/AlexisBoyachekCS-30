@@ -5,6 +5,12 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        double wingPrice = 0.75;
+        double money = 4.75;
+        double buyWings = (int)(money / wingPrice);
+        double wingTotal = (wingPrice * buyWings);
+
+        System.out.println("With $4.75, you can purchase: " + buyWings);
+        System.out.println("for the price of: $" + wingTotal);
     }
 }
