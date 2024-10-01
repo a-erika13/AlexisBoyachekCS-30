@@ -1,6 +1,6 @@
 public class App {
 //Name: Alexis Boyachek
-//Date: 17 September 2024
+//Date: 28 September 2024
 //Class: Computer Science 30 Period 1
 //Project: A-7 Strings AEB
 
