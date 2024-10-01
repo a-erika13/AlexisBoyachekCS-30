@@ -1,18 +1,17 @@
 public class App {
     public static void main(String[] args) throws Exception {
         String message1 = "I am very happy";
-        String target1 = "very";
-        System.out.println();
+        System.out.println(message1);
+        System.out.println(message1.indexOf("very"));
+        System.out.println(message1.length());
+        System.out.println(message1.substring(0,5) + message1.substring(10,15));
+        
+        System.out.println("-------------");
 
         String message2 = "That was great -- lol";
-        String target2 = "lol";
-
-        \\Your code for part one should remove the word “very ” (and following space) from message1 and print the new message.
-
-        \\You must use .indexOf() to find the start position of a the part of the string you want to remove.
-
-        \\You need to use .length() to find the end point of the string you want to remove.
-
-        \\You can then use .substring() to create a new string removing the word
+        System.out.println(message2);
+        System.out.println(message2.indexOf("lol"));
+        System.out.println(message2.length());
+        System.out.println(message2.substring(0,18) + "Laugh Out Loud");
     }
 }
