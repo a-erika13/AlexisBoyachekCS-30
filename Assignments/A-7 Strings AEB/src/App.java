@@ -3,8 +3,10 @@ public class App {
 //Date: 28 September 2024
 //Class: Computer Science 30 Period 1
 //Project: A-7 Strings AEB
+//Description: Use indexOf() and length() functions to take/ replace words within the sentence
 
     public static void main(String[] args) throws Exception {
+        //Part i
         String message1 = "I am very happy";
         System.out.println(message1);
         // use indexOf() to find out where the word you are wanting to remove begins
@@ -15,6 +17,7 @@ public class App {
         
         System.out.println("-------------");
 
+        //Part ii
         String message2 = "That was great -- lol";
         System.out.println(message2);
         // use indexOf() to find out where the word you are wanting to remove begins

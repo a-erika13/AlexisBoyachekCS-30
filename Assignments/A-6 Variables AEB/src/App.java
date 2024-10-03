@@ -2,6 +2,7 @@
 //Date: 24 September 2024
 //Class: Computer Science 30 Period 1
 //Project: A-6 Varibles AEB
+//Description: Calculate how many chicken wings you are able to buy with $4.75 for $0.75
 
 public class App {
     public static void main(String[] args) throws Exception {
