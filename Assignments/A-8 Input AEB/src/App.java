@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
 //Name: Alexis Boyachek
 //Date: 1 October 2024
@@ -5,11 +7,15 @@ public class App {
 //Project: A-8 Input AEB
 //Description: 
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        //Using the code below as a start create a program that the user 
-        //inputs and the program outputs two of the following variables: integer, double, 
-        //Add code that will add each of the pairs of variables together at the end of the program.
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Enter an integer");
+        int numA = keyboard.nextInt();
+        System.out.println (numA);
+        System.out.println("Enter an integer");
+        int numB = keyboard.nextInt();
+        System.out.println (numB);
+        
+        
 
-        userInt1 = input(print("insert integer"));
     }
 }
