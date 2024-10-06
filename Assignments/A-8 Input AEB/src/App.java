@@ -8,13 +8,18 @@ public class App {
 //Description: 
     public static void main(String[] args) throws Exception {
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Enter an integer");
+        System.out.println("Enter an Integer value: ");
         int numA = keyboard.nextInt();
         System.out.println (numA);
         System.out.println("Enter an integer");
         int numB = keyboard.nextInt();
         System.out.println (numB);
-        
+
+        Syestem.out.println("Enter a Double value: ");
+        double numC = keyboard.nextDouble();
+        System.out.println(numC);
+        System.out.println("Enter a Double value:");
+        Ststem.out.println(numD)       
         
 
     }
