@@ -1,9 +1,17 @@
+import java.util.Scanner;
 public class Temp {
-    public void unitTemp(){
-        System.out.println("What unit will you be starting with: 1 for C, or 2 for F");
-        
+    public class convertC{
+        public double convert(double F){
+            double convert;
+            double C = (5/9) * F - 32;
+            return F;
+        }
     }
-    public void tempValue(){
-        
+    public class insertF{
+        Scanner f = new Scanner(System.in);
+        System.out.println("Enter temperature in fahrenheit: ");
+        double tempF = f.nextDouble();
+        double answer = convertC.convert(f)
+        System.out.printf("Your temperature conversion is %.1f");
     }
 }
