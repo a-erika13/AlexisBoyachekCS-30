@@ -9,8 +9,9 @@ public class TempRunner {
 
 //import scanner
     public static void main(String[] args) throws Exception {
-        public class TempRunner {
-            
-        }
+        TempRunner temp = new TempRunner();
+        temp.insertF();
+        temp.convertC();
+
     }
 }
