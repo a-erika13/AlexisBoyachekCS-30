@@ -7,7 +7,7 @@ public class Temp {
     public void insertF(){
         System.out.println("Enter temperature in fahrenheit: ");
         return;
-        return = double tempF;
+        
     }
     Scanner f = new Scanner(System.in);
     double tempF = f.nextDouble();
