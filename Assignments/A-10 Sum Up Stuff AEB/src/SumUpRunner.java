@@ -7,8 +7,8 @@ public class SumUpRunner {
 	public static void main( String[] args )
 	{
 		SumUp add = new SumUp();				
-		add.setNums(2,6);
-		add.sum(0, 0);
-		add.print();
+		
+		add.setNums(5.0, 7.4);
+		add.sum();
     }
 }

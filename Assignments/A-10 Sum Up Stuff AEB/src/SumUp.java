@@ -5,21 +5,16 @@
 //Description: Add and print the sum of two given double values
 public class SumUp {
 	//instance variables
-	double one;
-    double two;
-    double sum;
+	private double one;
+    private double two;
+    private double sum;
 
-	public void setNums(double num1, double num2){
-        System.out.println("Enter a value for the first double number");
-        System.out.println("Enter a value for the second double number");
+	public void setNum1(double a, double b){
+       double num1 = 12;
 	}
 
-	public void sum(double num1, double num2){
-        double sum = num1 + num2;
+	public void sum(){
+        double sum = ;
+		System.out.println(sum);
 	}
-
-	public void print( ){
-        System.out.print(sum());
-	}
-
     }
