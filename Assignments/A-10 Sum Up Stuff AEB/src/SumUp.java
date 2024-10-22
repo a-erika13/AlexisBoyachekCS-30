@@ -9,12 +9,13 @@ public class SumUp {
     private double two;
     private double sum;
 
-	public void setNum1(double a, double b){
-       double num1 = 12;
+	public void setNums(double a, double b){
+		one = a;
+		two = b;
 	}
 
 	public void sum(){
-        double sum = ;
+        sum = one + two;
 		System.out.println(sum);
 	}
     }
