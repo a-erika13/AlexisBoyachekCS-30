@@ -8,12 +8,10 @@ public class TempConv {
     public void insertF(){
         System.out.println("Enter temperature in fahrenheit: ");
         tempF = f.nextDouble();
-
     }
 
     public void convertC(){
         C = (5.0/9.0) * (tempF - 32);
-
     }
 
     public void result() {
