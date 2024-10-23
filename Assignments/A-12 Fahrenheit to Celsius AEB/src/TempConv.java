@@ -13,7 +13,7 @@ public class TempConv {
     public void convertC(){
         C = (5.0/9.0) * (tempF - 32);
     }
-
+ 
     public void result() {
         System.out.println("Your temperature conversion is " + C + "C");
     }
