@@ -3,35 +3,24 @@ import java.util.Scanner;
 
 public class CoolNum {
     private Scanner n = new Scanner(System.in);
-    private double cn;
+    private int cn;
 
-    public static boolean isCoolNumber( int num )
-    {
-        int x; 
-        x = 6;
-        for(x = 6; x<num; x++)
-        {
-        if ((x%3==1)  &&  (x%4==1)  && (x%5 ==1) && (x%6 == 1))
+    public void insertNum() {
+        System.out.println("Enter an integer: ");
+        cn = n.nextInt();
+    }
+    public void isCoolNumber() {
+        //int x; 
+       // x = 6;
 
-            return true;
-
+        if ((cn%3==1)  &&  (cn%4==1)  && (cn%5==1) && (cn%6==1)){
+           System.out.println(cn + " is a cool number");
         }
-        return false;
+       // while (x) {
+            //if ((cn%3==1)  &&  (cn%4==1)  && (cn%5 ==1) && (cn%6 == 1)){}
+            //System.out.println("there are " + x + " cool numbers between 6 and " + cn);
+        }
 
     }
 
-    public static int countNumbers( int stop ){
-
-
-        //add counter
-
-
-    }
-
-    public static void main( String[] args )
-    {
-        System.out.println( CoolNum.countNumbers(250) + " cool numbers between 6 - " + 250);
-        //add more test cases
-    }  
-}
 
