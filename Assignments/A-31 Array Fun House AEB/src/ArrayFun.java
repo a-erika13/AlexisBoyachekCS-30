@@ -1,15 +1,18 @@
-import java.util.Arrays;
-import java.lang.Math;
+import java.util.*;
 
 public class ArrayFun {
     public void arrayOne(){
     int[] one = {7, 4, 10, 0, 1, 7, 6, 5, 3, 2, 9, 7};
     for (int n=0; n < one.length; n++);
 	System.out.println(Arrays.toString(one));
-    System.out.println(getSum(one,3,6));
+    System.out.println("# of 4s " + one.length);
+    
+    System.out.println("the sum of spots 3-6 is " );
     }
 
-    //EXAMPLE PROJECT!!!---------------------------------------------------
+    
+    
+                //EXAMPLE PROJECT!!!---------------------------------------------------
             public static void main(String[] args) throws Exception {
                 //Declare the array
                 //int[] scores = null;
