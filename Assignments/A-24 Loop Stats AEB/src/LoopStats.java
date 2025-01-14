@@ -9,13 +9,27 @@ import java.util.Scanner;
 
 public class LoopStats
 {
+	int totalNum = 0;
+	int start = 0;
+	int stop = 0;
 	Scanner ls = new Scanner(System.in);
 	public void numCount()
 	{ 
-		System.out.println("Enter starting value: ");
-		int start = ls.nextInt();
-		System.out.println("Enter stop value: ");
-		int stop = ls.nextInt();
+		System.out.println("Enter starting integer value: ");
+		start = ls.nextInt();
+		System.out.println("Enter stop integer value: ");
+		stop = ls.nextInt();
+	}
 
+	public void totalCount(){
+		for(int n = start; n <= stop; n++)
+		{
+			totalNum += n;
+
+			//if(n % 2 == 0){}
+
+			//else{}
+		}
+		System.out.println(totalNum);
 	}
 }
