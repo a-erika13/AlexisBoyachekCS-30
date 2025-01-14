@@ -1,7 +1,7 @@
 //Name: Alexis Boyachek
 //Date: 30 November 2024
 //Class: Computer Science 30 Period 1
-//Project: A-23 Leap Year AEB
+//Project: A-23 Cool Numbers AEB
 //Description: Checks user input number to see if it is a "cool number" (remainder of 1 when divided by 3, 4, 5, and 6)
             //and will cound how many cool numbers are between 6 and the user's input
 //import scanner
