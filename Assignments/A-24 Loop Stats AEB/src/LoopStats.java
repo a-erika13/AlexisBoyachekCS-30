@@ -12,7 +12,10 @@ public class LoopStats
 	int totalNum = 0;
 	int start = 0;
 	int stop = 0;
+	int oddCount = 0;
+	int evenCount = 0;
 	Scanner ls = new Scanner(System.in);
+
 	public void numCount()
 	{ 
 		System.out.println("Enter starting integer value: ");
@@ -26,10 +29,18 @@ public class LoopStats
 		{
 			totalNum += n;
 
-			//if(n % 2 == 0){}
+			if(n % 2 == 0)
+			{
+				evenCount ++;
+			}
 
-			//else{}
+			else
+			{
+				oddCount ++;
+			}
 		}
-		System.out.println(totalNum);
+		System.out.println("Total between " + start + " and " + stop + " is " + totalNum);
+		System.out.println("Even count: " + evenCount);
+		System.out.println("Odd count: " + oddCount);
 	}
 }
